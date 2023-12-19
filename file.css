@@ -92,7 +92,7 @@ body{
 ul{
     list-style-type:circle;
 }
-.contact, .goal, .community{
+.contact, .goal, .community, .sendtome{
     padding: 10px 20px;
     border-radius: 10px;
     margin: 0 0 10px 0;
@@ -134,6 +134,22 @@ a:visited{
 .total{
     padding-left: 20px;
 }
+
+.submit{
+    border-radius: 10px;
+    border:none;
+    color:#F9FCFB ;
+    background-color: #00A9FF;
+}
+input{
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+
+
+
 
 @media screen and (max-width: 480px){
     html{background-color: pink}
